@@ -173,6 +173,6 @@ Module['FS_createPath']('/Coronao/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 87, "filename": "/UE4CommandLine.txt"}, {"start": 87, "audio": 0, "end": 11130503, "filename": "/Coronao/Content/Paks/Coronao-HTML5.pak"}], "remote_package_size": 11130503, "package_uuid": "7ee95435-102e-42e3-974f-ea11b94c983a"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 87, "filename": "/UE4CommandLine.txt"}, {"start": 87, "audio": 0, "end": 11130500, "filename": "/Coronao/Content/Paks/Coronao-HTML5.pak"}], "remote_package_size": 11130500, "package_uuid": "9f044670-e059-4959-a67f-09035f7e5f75"});
 
 })();
