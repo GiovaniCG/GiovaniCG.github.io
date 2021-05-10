@@ -1,18 +1,73 @@
-<!DOCTYPE HTML>
-<html lang = "en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset = "UTF-8" />
-	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="desenvolvimentop de passeios virtuais, arquitetura e design de interiores">
-	<meta name="keywords" content="Tour virtual, arquitetura, 3D, passeio virtual">
-	<meta name="autor" content="Giovani Gragnani">
-	<title>GiovaniCG | Bem vindo</title>
-	<link rel="stylesheet" href="./css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/style.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("3d/teste-05.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("3d/casa-01.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("3d/Quarto-c01.png");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+</style>
+
 </head>
+
 <body>
-	<header>
+<header>
 		<div class="container">
 			<div id="branding">
+			
 				<h1><span class="highlight">Giovani</span>Gragnani</h1>
 			</div>
 			<nav>
@@ -24,21 +79,47 @@
 			</nav>
 		</div>
 	</header>
+	
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border"><span class="highlight">Giovani</span>Gragnani</span>
+  </div>
+</div>
 
-	<section id="main">
-		<div class="container">
-			<article id="main-col">
-				<p>Graduado em Arquitetura e Urbanismo e Pós-Graduado em Arquitetura, Cidade e Sustentabilidade ambos pelo Centro Universitário Belas Artes-SP. Possui formação técnica em interiores pelo Senac, bem como diversas formações em ferramentas de desenvolvimento gráfico (Modelagem, iluminação e animação 3d/V-ray/ Photoshop/ Illustrator/entre outros). Já atuou na elaboração de arquitetura comercial e stands comerciais, e na elaboração de Maquetes Eletrônicas para obras comerciais e residenciais. Desenvolve trabalhos em imersão interativa (Realidade virtual e Realidade Aumentada), Projetos residenciais e comerciais, bem como decoração de ambientes e projetos executivos.</p>
-			</article>
-			<aside id="sidebar">
-				<p></p>
-			</aside>
-		</div>
-	</section>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Sobre</h3>
+  <p>Graduado em Arquitetura e Urbanismo e Pós-Graduado em Arquitetura, Cidade e Sustentabilidade ambos pelo Centro Universitário Belas Artes-SP. Possui formação técnica em interiores pelo Senac, bem como diversas formações em ferramentas de desenvolvimento gráfico (Modelagem, iluminação e animação 3d/V-ray/ Photoshop/ Illustrator/entre outros). Já atuou na elaboração de arquitetura comercial e stands comerciais, e na elaboração de Maquetes Eletrônicas para obras comerciais e residenciais. Desenvolve trabalhos em imersão interativa (Realidade virtual e Realidade Aumentada), Projetos residenciais e comerciais, bem como decoração de ambientes e projetos executivos.</p>
+</div>
 
-		<footer>
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"> </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p> </p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"> </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p> </p>
+  </div>
+</div>
+
+</div>
+
+<footer>
 		<p>Giovani Gragnani, Copyright &copy; 2021</p>
 	</footer>
 
-	</body>
+</body>
 </html>
